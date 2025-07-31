@@ -1,20 +1,20 @@
-site_name: Luiza del Giúdice | Technical Writer
+site_name: Luiza del Giúdice - Technical Writer
 nav:
-  - Home: index.md
-  - CV: cv/index.md
-  - Skills: skills/index.md
+  - Introduction: index.md
   - Work Experience: work-experience/index.md
+  - Skills: skills.md
   - Writing Samples:
-      - Overview: writing-samples/index.md
-      - Tutorials and How-tos: writing-samples/how-tos.md
-      - Reference Documentation: writing-samples/reference.md
-      - Troubleshooting and FAQs: writing-samples/ts-and-faq.md
-      - API Documentation: writing-samples/api.md
-      - Blog Posts: writing-samples/blog-posts.md
+      - Tutorials & How-tos: writing-samples/how-tos.md
+      - API Docs: writing-samples/api.md
+      - Reference Docs: writing-samples/reference.md
+      - Troubleshooting / FAQs: writing-samples/ts-and-faq.md
       - UI Copy: writing-samples/ui-copy.md
+      - Blog Posts: writing-samples/blog-posts.md
+      - Full List: writing-samples/index.md
   - Education:
       - Overview: education/index.md
       - Certifications: education/certifications.md
+  - Contact: contact.md
 
 theme:
   name: 'material'
