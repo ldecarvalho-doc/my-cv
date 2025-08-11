@@ -6,17 +6,14 @@ title: Skills
 
 ## Documentation & Content Development
 - Writing and editing technical documentation (how-tos, reference, FAQs)
-- Creating internal and external documentation templates
+- Creating documentation templates
 - Writing technical blog posts
-- Reviewing Terraform documentation
-- Creating troubleshooting docs based on support tickets
 
 ## DevOps, Infra & Cloud Knowledge
+- Cloud services and infrastructure
 - Terraform (basic proficiency)
 - Python (basic understanding from internal training)
 - Networking and security concepts (internal training)
-- IAM and Scaleway cloud services
-- Anti-DDoS protections
 
 ## Tools & Platforms
 - Markdown, Git, GitHub, MkDocs
@@ -28,14 +25,14 @@ title: Skills
 
 ## Documentation Strategy & UX
 - SEO for documentation (meta descriptions, structural improvements)
-- Accessibility best practices (training completed)
+- Accessibility best practices (certified)
 - Diagramming and visual documentation
-- Collaboration with Product Design
+- UX Writing
 
 ## AI-Enhanced Documentation
-- Participated in design and implementation of internal documentation assistant
-- Maintained and improved prompts and testing workflows
-- Contributed feedback and testing for internal AI bot platform
+- Participated in design and implementation of a documentation assistant for clients
+- Maintained and improved prompts and continuously tested workflows
+- Contributed feedback and testing for the assistant
 
 ## Automation & Workflows
 - Implemented GitHub Actions for link checking

@@ -3,17 +3,8 @@ nav:
   - Introduction: index.md
   - Work Experience: work-experience/index.md
   - Skills: skills.md
-  - Writing Samples:
-      - Tutorials & How-tos: writing-samples/how-tos.md
-      - API Docs: writing-samples/api.md
-      - Reference Docs: writing-samples/reference.md
-      - Troubleshooting / FAQs: writing-samples/ts-and-faq.md
-      - UI Copy: writing-samples/ui-copy.md
-      - Blog Posts: writing-samples/blog-posts.md
-      - Full List: writing-samples/index.md
-  - Education:
-      - Overview: education/index.md
-      - Certifications: education/certifications.md
+  - Writing Samples: writing-samples/index.md
+  - Education: education.md
   - Contact: contact.md
 
 theme:

@@ -8,16 +8,23 @@ title: Work Experience
 
 **Scaleway | 2020 – Present | France**
 
-As Lead Technical Writer, I am responsible for documenting cloud products and services, supporting internal tools and documentation workflows, and leading content and training initiatives. I collaborate closely with engineers, PMs, and designers to produce clear, user-friendly documentation. I also mentor other writers and build automation that improves the documentation pipeline.
+As Lead Technical Writer, I am responsible for documenting products and services, improving documentation workflows, automating team processes, and leading content and training initiatives. I collaborate closely with engineers, PMs, and designers to create clear and straightforward documentation.
 
 ### Responsibilities
-- Writing technical documentation for all of Scaleway’s products and services, including tutorials, how-tos, concepts, FAQs, quickstarts, and troubleshooting content
-- Leading retrospectives and team weeklies; manage the team Jira board and stakeholder requests
-- Creating and maintain internal content such as changelogs, onboarding guides, and documentation guidelines
+- Writing and reviewing technical documentation for all of Scaleway’s products and services, including:
+    - tutorials
+    - how-tos
+    - concepts
+    - FAQs
+    - quickstarts
+    - troubleshooting content
+    - API reference
+- Participating in product squads for 5+ cloud products to deliver up-to-date content
+- Leading retrospectives and team weeklies
+- Managing the team Jira board and stakeholder requests
+- Creating and maintaining internal content such as changelogs, onboarding guides, and documentation guidelines
 - Driving UX writing efforts in the Scaleway console (UI copy)
-- Maintaining Quickstart Guides and the Wording Handbook
 - Delivering onboarding sessions and cross-company talks about Technical Writing
-- Collaborating with squads for 5+ cloud products to deliver accurate, timely content
 
 ### Notable Contributions
 - **Train the Docs** – Created and led a training initiative that offered internal workshops on Python, Terraform, diagramming, and prompt engineering
@@ -30,8 +37,8 @@ As Lead Technical Writer, I am responsible for documenting cloud products and se
 - **SEO Improvements** – Updated doc site metadata and structure to improve visibility
 - **Amplitude Dashboards** – Created dashboards and shared insights with product teams
 - **Automation** – Built Slack and Jira automations for ticket routing, alerts, and team sync
-- **GitHub Actions** – Implemented automated 404 link checking for the docs site
-- **Internal Meetup** – Co-organized and presented at the Documentation Team’s first internal meetup
+- **GitHub Maintance** – Implemented automated 404 link checking for the docs site, implemented an automated tagging system
+- **External Meetup** – Co-organized and presented at the Documentation Team’s first external meetup
 - **Support Integration** – Created new troubleshooting pages based on support feedback
 - **English Coffee** – Launched and facilitated weekly language practice sessions
 
@@ -39,7 +46,7 @@ As Lead Technical Writer, I am responsible for documenting cloud products and se
 **Scaleway | 2019 – 2020 | France**
 
 - Supported pre-sales project requests in collaboration with Cloud Solution Architects
-- Identified sales opportunities and managed customer-facing documentation and responses
+- Identified sales opportunities and managed customer-facing content and responses
 - Helped coordinate events and technical go/no-go discussions with internal teams
 
 ## Customer Happiness Manager
@@ -70,5 +77,4 @@ As Lead Technical Writer, I am responsible for documenting cloud products and se
 
 - Supported international student onboarding, visa processes, and cultural orientation
 
----
 
