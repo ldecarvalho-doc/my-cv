@@ -1,0 +1,285 @@
+/* Light mode variables */
+:root {
+  --md-primary-fg-color: #5f7f5b;
+  /* sage olive */
+  --md-primary-fg-color--light: rgba(95, 127, 91, 0.7);
+  --md-primary-fg-color--dark: #4b6446;
+
+  --md-accent-fg-color: #7c9d76;
+  /* lighter olive green */
+  --md-accent-fg-color--transparent: rgba(0, 0, 0, 0.04);
+  /* light grey */
+
+  /* Text colors - accessible contrast on white */
+  --md-default-fg-color: #333333;
+  /* body/UI text */
+  --md-typeset-color: #333333;
+  /* content area text */
+
+  /* Surfaces */
+  --md-card-bg-color: #fafafa;
+}
+
+/* Dark mode variables - high contrast */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #a8d5b2;
+  /* lighter green for dark bg */
+  --md-primary-fg-color--light: rgba(168, 213, 178, 0.85);
+  --md-primary-fg-color--dark: #88b996;
+
+  --md-accent-fg-color: #b8e0c2;
+  /* accent still green but lighter */
+  --md-accent-fg-color--transparent: rgba(255, 255, 255, 0.08);
+  /* subtle light overlay */
+
+  /* Text colors - meet WCAG AA against dark background */
+  --md-default-fg-color: #e6e6e6;
+  /* main body text */
+  --md-typeset-color: #f0f0f0;
+  /* content text */
+
+  /* Surfaces */
+  --md-card-bg-color: #1e1e1e;
+  /* cards slightly lighter than page bg */
+}
+
+
+/* --- Top bar with soft gradient --- */
+.md-header {
+  background: linear-gradient(90deg, var(--md-primary-fg-color) 0%, var(--md-accent-fg-color) 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Headings --- */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h1 {
+  font-size: 2.1em;
+  margin-bottom: 0.4em;
+}
+
+.md-typeset h2 {
+  font-size: 1.6em;
+  margin-top: 1.4em;
+}
+
+/* --- Navigation --- */
+.md-nav__link {
+  padding-left: 0.6em;
+  transition: all 0.2s ease;
+  color: var(--md-primary-fg-color) !important;
+  /* Always green */
+}
+
+.md-nav__link:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color) !important;
+  /* Keep green */
+}
+
+.md-nav__link--active {
+  font-weight: 600;
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color) !important;
+  /* Keep green */
+}
+
+/* --- Links in content: no underline --- */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* Base admonition style */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 0.8em 1em;
+  margin: 1em 0;
+}
+
+/* Title bar inside admonitions */
+.md-typeset .admonition-title {
+  font-weight: 600;
+  background-color: rgba(63, 112, 88, 0.08);
+  /* soft green background */
+  border-bottom: 1px solid rgba(63, 112, 88, 0.15);
+  color: var(--md-primary-fg-color);
+  border-radius: 6px 6px 0 0;
+}
+
+/* Text inside admonitions */
+.md-typeset .admonition p {
+  color: #333;
+}
+
+/* Border color for all types of admonitions */
+.md-typeset .admonition.note,
+.md-typeset .admonition.tip,
+.md-typeset .admonition.info,
+.md-typeset .admonition.warning,
+.md-typeset .admonition.danger,
+.md-typeset .admonition.example {
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+/* Optional: make different types slightly vary */
+.md-typeset .admonition.tip {
+  border-left-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: #a36f00;
+  /* muted amber for warnings */
+}
+
+.md-typeset .admonition.danger {
+  border-left-color: #8b2e2e;
+  /* muted red for danger */
+}
+
+
+/* --- Buttons --- */
+.md-button {
+  background-color: var(--md-accent-fg-color);
+  color: white !important;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.md-button:hover {
+  background-color: var(--md-primary-fg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Code blocks --- */
+.md-typeset code {
+  background-color: rgba(118, 177, 143, 0.1);
+  color: var(--md-primary-fg-color);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.md-typeset pre>code {
+  background-color: #f6f8f7;
+  border-radius: 8px;
+  padding: 1em;
+  display: block;
+}
+
+/* --- Tables --- */
+.md-typeset table th {
+  background-color: rgba(118, 177, 143, 0.1);
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* --- Blockquotes --- */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-accent-fg-color);
+  padding-left: 1em;
+  color: #555;
+  background-color: rgba(118, 177, 143, 0.05);
+  border-radius: 4px;
+}
+
+/* Fix icon alignment and spacing in grid cards */
+.grid.cards li {
+  display: flex;
+  align-items: center;
+  /* vertical centering */
+  gap: 0.65rem;
+  /* space between icon and text */
+  margin: 5;
+  /* remove default p margins */
+  min-height: 2.75rem;
+  /* keeps a nice row height */
+}
+
+.grid.cards li svg,
+.grid.cards li img,
+.grid.cards li .twemoji {
+  flex-shrink: 0;
+  /* prevent icon from shrinking */
+  width: 1.2em;
+  /* consistent icon size */
+  height: 1.2em;
+  color: var(--md-primary-fg-color);
+  /* match theme green */
+  fill: var(--md-primary-fg-color);
+  /* ensure SVG fills match */
+}
+
+.grid.cards li a {
+  display: inline-block;
+  vertical-align: center;
+  line-height: 1;
+  color: var(--md-primary-fg-color);
+  /* match text color */
+  text-decoration: none;
+  /* remove underline */
+}
+
+.grid.cards li a:hover {
+  color: var(--md-primary-fg-color--dark);
+  /* slightly darker on hover */
+}
+
+/* Hide Material's default pseudo-icon if present */
+.md-typeset .headerlink::after {
+  content: none !important;
+}
+
+/* Ensure headings can position the clickable # */
+.md-typeset :is(h1, h2, h3, h4, h5, h6) {
+  position: relative;
+}
+
+/* Make the permalink (#) clickable, placed BEFORE the heading text, only on hover */
+.md-typeset :is(h1, h2, h3, h4, h5, h6)>.headerlink {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-1.25em, -50%);
+  /* puts # to the left, vertically centered */
+  text-decoration: none;
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+  font-size: 0.9em;
+  /* tweak size to taste */
+  line-height: 1;
+  opacity: 0;
+  /* hidden by default */
+  transition: opacity 0.15s ease;
+}
+
+/* Show only when hovering the heading block */
+.md-typeset :is(h1, h2, h3, h4, h5, h6):hover>.headerlink {
+  opacity: 1;
+}
+
+/* Optional: darker on hover for feedback */
+.md-typeset :is(h1, h2, h3, h4, h5, h6):hover>.headerlink:hover {
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Hide the unclickable site title in the right-side navigation */
+.md-nav__title {
+  display: none !important;
+}
