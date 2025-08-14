@@ -1,47 +1,54 @@
 site_name: Luiza del Giúdice - Technical Writer
 nav:
-  - Introduction: index.md
-  - Work Experience: work-experience/index.md
+  - About me: index.md
+  - Experience: work-experience/index.md
   - Skills: skills.md
-  - Writing Samples: writing-samples/index.md
+  - Writing Samples: writing-samples.md
   - Education: education.md
   - Contact: contact.md
 
 theme:
   name: 'material'
-  #favicon: images/blue-whale.png
-  #logo: images/blue-whale.png
+  favicon: /assets/copywriter.png
+  logo: /assets/copywriter-color.png
   font:
     text: Lato
   palette: # Palette toggle for light mode
     - scheme: default
-      primary: white # Primary defines the primary color of the theme.
-      accent: light blue # Accent specifies the accent color of the theme.
+      primary: custom # Primary defines the primary color of the theme.
+      accent: custom # Accent specifies the accent color of the theme.
       toggle: # toggle specifies the icon and name for toggling between light and dark modes.
         icon: material/toggle-switch
         name: Switch to dark mode
   # Palette toggle for dark mode
     - scheme: slate
-      primary: black
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
-
+  features:
+    - toc.follow
 ## css def
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/custom.css
   - http://fonts.googleapis.com/css?family=Audiowide|Exo+2|Rambla|Scada
 
 markdown_extensions:
   - toc:
       permalink: true
+      permalink: "#"           # use a hashtag instead of ¶
+      permalink_title: "Link to this heading"
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - def_list
   - codehilite
+  - attr_list
+  - md_in_html
 
 icon: # Maps custom MkDocs icons to different types of admonitions (alerts or messages), using icons from the Octicons set.
   admonition:

@@ -9,19 +9,21 @@ title: Skills
 - Creating documentation templates
 - Writing technical blog posts
 
-## DevOps, Infra & Cloud Knowledge
-- Cloud services and infrastructure
-- Terraform (basic proficiency)
-- Python (basic understanding from internal training)
-- Networking and security concepts (internal training)
+## Languages
+- 🇧🇷 Portuguese — Native
+- 🇬🇧 English — Fluent
+- 🇫🇷 French — Fluent
+- 🇪🇸 Spanish — Advanced
+- 🇮🇹 Italian — Intermediate
+- 🇰🇷 Korean — Basic
 
 ## Tools & Platforms
 - Markdown, Git, GitHub, MkDocs
 - Jira (automation + configuration)
 - Slack (automation + bots)
-- GitHub Actions
 - Amplitude (analytics dashboards)
 - Algolia (docs search analytics)
+- Figma, Figjam, Miro
 
 ## Documentation Strategy & UX
 - SEO for documentation (meta descriptions, structural improvements)
@@ -47,16 +49,13 @@ title: Skills
 - Onboarding support through templates like "Meet Your Tech Writer"
 - Presentation coaching and content
 
-## Languages
-- 🇧🇷 Portuguese — Native
-- 🇬🇧 English — Fluent
-- 🇫🇷 French — Fluent
-- 🇪🇸 Spanish — Advanced
-- 🇮🇹 Italian — Intermediate
-- 🇰🇷 Korean — Basic
-
 ## Collaboration & Communication
 - Conducted internal satisfaction surveys
 - Created and presented reports based on Amplitude and survey data
 - Supported team event planning and cross-functional collaboration
 
+## DevOps, Infra & Cloud Knowledge
+- Cloud services and infrastructure
+- Terraform (basic proficiency)
+- Python (basic understanding from internal training)
+- Networking and security concepts (internal training)

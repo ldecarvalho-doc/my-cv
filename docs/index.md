@@ -1,37 +1,29 @@
 ---
-title: Introduction
+title: About me
 ---
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
   <div style="flex: 0 0 150px;">
-    <img src="assets/profile.jpeg" alt="Luiza Del Giudice de Carvalho" width="150" style="border-radius: 35%; vertical-align: bottom">
+    <img src="assets/profile-image-2.jpg" alt="Luiza Del Giudice de Carvalho" width="150" style="border-radius: 50%; vertical-align: bottom">
   </div>
   <div style="flex: 1;">
     <h3>Luiza Del Giúdice</h3>
-    <p>I’m a technical writer with nearly 6 years of experience turning complex computing concepts and procedures into accessible, user-focused documentation. I specialize in docs-as-code.</p>
-    <p>Currently looking for remote or international roles in Europe, Latin America, or Asia.</p>
+    <p>I’m a Technical Writer with 6 years of experience turning complex computing concepts and procedures into accessible, user-focused documentation. </p>
+    <p>Currently looking for opportunities in tech companies that work in a docs-as-code environment. Looking for hybrid or remote roles in Europe and Latin America.</p>
   </div>
 </div>
 
-
-## Highlights
-- Specializing in tutorials, API docs, and UI copy
-- Tools: Markdown, Git, Swagger/OpenAPI, Confluence, Figma, VSCode
-- Certified in Web Accessibility and SEO for Docs
-- Fluent in English and French. Native in Portuguese
-
-## What I’m looking for
-
-I'm currently open to remote or hybrid roles as a Technical Writer, preferably in developer-facing or UX-focused teams. I'm especially interested in working on cloud platforms, and accessibility-forward content in multicultural teams.
-
 ## Explore my work
 
-- [Work Experience](work-experience/index.md)
-- [Skills & Tools](skills/index.md)
-- [Writing Samples](writing-samples/index.md)
-- [Certifications](education/certifications.md)
-- [Contact Me](contact.md)
+<div class="grid cards" markdown>
+  - :octicons-briefcase-16: **[Experience](work-experience/index.md)**
+  - :octicons-tools-16: **[Skills and Toolbox](skills.md)**
+  - :fontawesome-regular-pen-to-square: **[Writing Samples](writing-samples.md)**
+  - :material-certificate-outline: **[Certifications](education/#certifications.md)**
+</div>
 
 ## Contact
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Email me](mailto:your@email.com)
-- [Download my CV as PDF](assets/luiza-cv.pdf)
+<div class="grid cards" markdown>
+  - :fontawesome-brands-linkedin-in: **[LinkedIn](https://linkedin.com/in/luiza-del-giudice)**
+  - :material-email-outline: **[Email me](mailto:luizadelgiudicee@gmail.com)**
+  - :material-download: **[Download my CV as PDF](assets/luiza-cv.pdf)**
+</div>
