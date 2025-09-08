@@ -40,7 +40,7 @@ As a **technical lead**, I:
 
     !!! note
 
-        Learn more about Train the Docs on the dedicated [Projects page](/work-experience/projects).
+        Learn more about Train the Docs on the dedicated [Projects page](/my-cv/work-experience/projects).
 
 - **AI Bot Maintenance** – Supported the implementation and ongoing QA of Scaleway’s documentation assistant (prompt tuning, feedback collection, testing)
 - **SEO Improvements** – Updated doc site metadata and structure to improve visibility
