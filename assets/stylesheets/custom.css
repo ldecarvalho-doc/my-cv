@@ -125,16 +125,6 @@
   color: #333;
 }
 
-/* Border color for all types of admonitions */
-.md-typeset .admonition.note,
-.md-typeset .admonition.tip,
-.md-typeset .admonition.info,
-.md-typeset .admonition.warning,
-.md-typeset .admonition.danger,
-.md-typeset .admonition.example {
-  border-left: 4px solid var(--md-primary-fg-color);
-}
-
 /* Optional: make different types slightly vary */
 .md-typeset .admonition.tip {
   border-left-color: var(--md-accent-fg-color);
@@ -150,6 +140,42 @@
   /* muted red for danger */
 }
 
+/* Dark mode styles */
+[data-md-color-scheme="slate"] {
+ /* Base admonition style for dark mode */
+ .md-typeset .admonition,
+ .md-typeset details {
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.02);
+ }
+
+ /* Title bar inside admonitions for dark mode */
+ .md-typeset .admonition-title {
+  background-color: rgba(63, 112, 88, 0.2);
+  border-bottom: 1px solid rgba(63, 112, 88, 0.3);
+  color: var(--md-primary-fg-color);
+ }
+
+ /* Text inside admonitions for dark mode */
+ .md-typeset .admonition p {
+  color: #ccc;
+ }
+
+ /* Optional: make different types slightly vary in dark mode */
+ .md-typeset .admonition.tip {
+  border-left-color: var(--md-accent-fg-color);
+ }
+
+ .md-typeset .admonition.warning {
+  border-left-color: #f5c211;
+  /* bright amber for warnings in dark mode */
+ }
+
+ .md-typeset .admonition.danger {
+  border-left-color: #ff4d4d;
+  /* bright red for danger in dark mode */
+ }
+}
 
 /* --- Buttons --- */
 .md-button {
@@ -283,3 +309,4 @@
 .md-nav__title {
   display: none !important;
 }
+
