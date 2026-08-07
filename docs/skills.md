@@ -6,6 +6,7 @@ title: Skills
 
 ## Documentation & Content Development
 - Writing and editing technical documentation (how-tos, reference, FAQs)
+- Writing and testing integration documentation (setup, configuration, data mapping)
 - Creating documentation templates
 - Writing technical blog posts
 
@@ -32,6 +33,7 @@ title: Skills
 - UX Writing
 
 ## AI-Enhanced Documentation
+- Build cross-tool automation workflows with Akai, Deel's internal AI solution, to close documentation gaps at scale
 - Participated in design and implementation of a documentation assistant for clients
 - Maintained and improved prompts and continuously tested workflows
 - Contributed feedback and testing for the assistant

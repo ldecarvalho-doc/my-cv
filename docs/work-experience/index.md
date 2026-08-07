@@ -4,9 +4,25 @@ title: Work Experience
 
 # Work Experience
 
+## Senior Technical Writer
+
+*Deel (Jan 2026 - Now)*
+
+At Deel, I focus on closing content gaps and making integrations easier to set up correctly the first time.
+
+As a **technical writer**, I:
+
+- Write and test documentation for Deel's third-party integrations, covering setup, configuration, and data mapping
+- Validate integration workflows hands-on before publishing, catching setup issues and edge cases ahead of release
+- Identify and prioritize documentation gaps across the integrations catalog, working with Product and Engineering to scope new content
+
+As part of **AI-enhanced documentation**, I:
+
+- Build cross-tool automation workflows using Akai, Deel's internal AI solution, to speed up documentation production and close content gaps at scale
+
 ## Lead Technical Writer
 
-*Scaleway (2020 - Now)*
+*Scaleway (2020 - Dec 2025)*
 
 Being a Lead Technical Writer at Scaleway has allowed me to wear several hats and develop skills in different areas of interest.
 
